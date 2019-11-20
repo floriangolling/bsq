@@ -8,6 +8,7 @@
 #ifndef my_h_bsq
 #define my_h_bsq
 
+void end_tab_disp(char *buff, int **tab, char **final_tab);
 int my_strlen(char *str);
 void my_putstr(char *str);
 void my_putchar(char c);

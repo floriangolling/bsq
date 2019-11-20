@@ -9,6 +9,7 @@
 
 int main(int ac, char **av)
 {
-    open_and_read(av[1]);
+    if (open_and_read(av[1]) == 84)
+        return (84);
     return (0);
 }
