@@ -50,11 +50,9 @@ int lower_number(int i, int x, int y)
     return (temp);
 }
 
-int **find_square(int **matrix, char* buff)
+int **find_square(int **matrix, char* buff, int n, int x)
 {
     int **find_square;
-    int n = 0;
-    int x = 0;
     int width = backslash_n_counter(buff) - 1;
     find_square = malloc(sizeof(int*) * width + 1);
 

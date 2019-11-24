@@ -20,7 +20,7 @@ int my_strlen(char *str);
 void my_putstr(char *str);
 void my_putchar(char c);
 int lower_number(int i, int x, int y);
-int **find_square(int **matrix, char* buff);
+int **find_square(int **matrix, char* buff, int x, int n);
 int find_square_col(int **matrix);
 int find_square_size(int **matrix);
 int find_square_line(int **matrix);
@@ -33,7 +33,5 @@ int **fill_tab(char *buff, int width, int x, int i);
 int skip_first_line(char *str);
 int backslash_n_counter(char *buff);
 int strlen_two_line(char *str);
-
-
 
 #endif /* !my_h_bsq */

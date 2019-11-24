@@ -24,10 +24,11 @@ void end_tab_disp(char *buff, int **tab, char **final_tab)
 {
     int i = skip_first_line(buff);
     int x = 0;
+    int n = 0;
     int width = backslash_n_counter(buff) - 1;
 
     tab = fill_tab(buff, width, x, i);
-    tab = find_square(tab, buff);
+    tab = find_square(tab, buff, x, n);
     final_tab = final_tab_whitout_number(tab, buff);
     final_tab = final_tab_with_number(final_tab, find_square_col(tab),
     find_square_line(tab), find_square_size(tab));
