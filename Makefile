@@ -5,8 +5,11 @@
 ## makefile
 ##
 
-SRC		=		fill_tab.c	\
-				main.c
+SRC		=		src/bsq_part_one.c		\
+				src/bsq_part_two.c		\
+				src/bsq_part_three.c	\
+				src/bsq_part_four.c		\
+				src/main.c
 				
 NAME	=		bsq
 
